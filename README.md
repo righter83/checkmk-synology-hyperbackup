@@ -2,6 +2,9 @@
 
 ## Changes
 
+### v1.1
+Addedd version check for HyperBackup. Starting with 4.1 it has a different log location. (not tested on my NAS yet)
+
 ### v1.0
 inital relase
 
