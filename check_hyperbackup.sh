@@ -11,7 +11,7 @@ LANG=de_DE.UTF-8 # Locale Settings because of 12 or 24 hr calc
 LC_ALL=de_DE.UTF-8
 
 # check version of hyperbackup
-hbver=$(synopkg version HyperBackup)
+hbver=$(/usr/syno/bin/synopkg version HyperBackup)
 shortver=${hbver:0:1}${hbver:2:1}
 if [ "$shortver" -gt "40" ]
 then
