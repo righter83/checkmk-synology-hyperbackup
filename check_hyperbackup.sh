@@ -2,7 +2,7 @@
 
 # Info
 # https://github.com/righter83/checkmk-synology-hyperbackup
-# v1.0
+# v1.1
 
 # config
 job_name="Fileserver"
