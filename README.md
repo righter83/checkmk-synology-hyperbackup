@@ -16,8 +16,8 @@ Tested on:
 * Copy the scripty to your Synology NAS and make it excecutable.
 ```
 cd /volume1
-wget https://raw.githubusercontent.com/righter83/checkmk-synology-hyperbackupbackup/main/check_hyperbackup.php
-chmod +x check_hyperbackup.php
+wget https://raw.githubusercontent.com/righter83/checkmk-synology-hyperbackup/main/check_hyperbackup.sh
+chmod +x check_hyperbackup.sh
 ```
 * Install the SSH Key from CheckMK on your NAS.
 * Afterwards you have to configure the Check in CheckMK:
