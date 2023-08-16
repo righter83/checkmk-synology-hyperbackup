@@ -15,7 +15,7 @@ hbver=$(/usr/syno/bin/synopkg version HyperBackup)
 shortver=${hbver:0:1}${hbver:2:1}
 if [ "$shortver" -gt "40" ]
 then
-        message=$(grep "$job_name" /volume1/@appdata/HyperBackup/log/hyperbackup.log | grep -w 'with result [[1]]' | tail -1)
+        message=$(grep "$job_name" /volume1/@appdata/HyperBackup/log/hyperbackup.log | grep -w 'with result \[1\]' | tail -1)
 else
         message=$(grep "$job_name" /var/log/messages | grep -w 'with result \[[1]\]' | tail -1)
 fi
