@@ -4,7 +4,7 @@
 
 ### v2-alpha
 Experimented with the API Library https://github.com/N4S4/synology-api. It connects to the Synology API to get the backup results
-can be tried with checkmk-synology-hb-api.py
+can be tried with check_hyperbackup_api.py
 
 ### v1.1
 Addedd version check for HyperBackup. Starting with 4.1 it has a different log location. (not tested on my NAS yet)
